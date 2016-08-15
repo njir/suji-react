@@ -1,0 +1,8 @@
+input[type=text]:focus:not:([readonly]) {
+  box-shadow: none;
+}
+
+body {
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
