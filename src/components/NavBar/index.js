@@ -18,7 +18,7 @@ export default class NavBar extends React.Component {
   renderElementLeft() {
     return (
       <IconButton touch tooltipPosition="bottom-right"
-                  linkButton href="http://github.com/oh-my-github/registry" target="_blank">
+                  linkButton href="https://github.com/suji-korea/suji-react" target="_blank">
         <FontIcon className="fa fa-github" style={style.rightIcon} hoverColor={white} />
       </IconButton>
     )
@@ -29,7 +29,7 @@ export default class NavBar extends React.Component {
     return (
       <AppBar style={style.navbar} iconElementLeft={leftElement}>
         <FlatButton disabled
-                    label={<Link to="/registry" style={style.text}>Registry</Link>}
+                    label={<Link to="/suji" style={style.text}>SUJI</Link>}
                     style={style.linkButton} />
         <FlatButton disabled
                     label={<Link to="/about" style={style.text}>About</Link>}

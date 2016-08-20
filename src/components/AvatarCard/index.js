@@ -37,9 +37,10 @@ export default class AvatarCard extends React.Component {
 
   renderCardText = (user) => {
     let contents = {
-      '1ambda' : 'Junior Data Engineer at Data Infrastructure Team - SK planet',
-      'tocology' : 'IT Solution Assistant Researcher at Samsung SDS',
       'njir' : 'General Imaging Software Engineer at GE Healthcare',
+      'ledgku' : 'Student',
+      'KimBoWoon' : 'Student',
+      'FantaJB' : 'Student'
     }
 
     return(
@@ -51,9 +52,10 @@ export default class AvatarCard extends React.Component {
 
   renderCardActions = (user) => {
     let email = {
-      '1ambda' : '1amb4a@gmail.com',
-      'tocology' : 'hwangjun7777@gmail.com',
       'njir' : 'njirtak@gmail.com',
+      'ledgku' : 'ledgku@naver.com',
+      'KimBoWoon' : '',
+      'FantaJB' : ''
     }
 
     let linkedin = {
